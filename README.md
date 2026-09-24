@@ -15,14 +15,22 @@ An interactive business intelligence dashboard built to analyze Starbucks sales,
 
 Excel → PostgreSQL → Power BI
 
-## Data Preparation
+The project workflow includes:
 
-- Removed duplicate records
-- Handled missing values
-- Replaced appropriate numerical nulls with 0
-- Replaced missing categorical values with "Unknown"
-- Created structured PostgreSQL tables
-- Defined primary and foreign key relationships
+1. Data preparation and cleaning in Excel and Power BI
+2. Structured tables created in PostgreSQL
+3. Primary and foreign key relationships established in PostgreSQL
+4. PostgreSQL connected to Power BI as the data source
+5. Data model and DAX measures created in Power BI
+6. Interactive dashboards developed for business analysis
+
+## Data Source
+
+Power BI is connected to a PostgreSQL database containing the Customers, Orders, and Revenue tables.
+
+The PBIX file contains the Power BI report, data model, measures, and visualizations. PostgreSQL is required as the source connection for refreshing the data.
+
+Dashboard screenshots are provided for quick preview.
 
 ## Data Model
 
